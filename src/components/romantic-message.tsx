@@ -14,7 +14,32 @@ export default function RomanticMessage() {
   const [messages, setMessages] = useState<{ id: number; text: string; date: Date }[]>([
     {
       id: 1,
-      text: "Every moment with you feels like a dream I never want to wake up from. You are my sunshine on cloudy days.",
+      text: "SELAMAAATT YAAA !! Gua bangga banget sama Loooo!, gua akuin dgn jujur (kali ini) lu keren, keanya kalo kita seumuran, kita adalah saingan deh 😂",
+      date: new Date(),
+    },
+    {
+      id: 2,
+      text: "Akhirnya setelah sekian lama berjuang lewat darat dan langit maupun goib, kamu berhasil menjadi UNJ Gurl. Pesen dari gua, jangan sombong, jangan ngeremehin org lain yang kliatan ga 'sebisa' lu, ambis boleh, tapi jangan overpushed (kecuali sama gua🤫), dan stay private. Gua berharap semoga lu amanah dengan ilmu yang dicari, makin soleha, semakin pinter, semoga semua impian lu tercapai, dan semoga selama gua bisa bareng sama lu, gua bisa ikut pinter, gua bisa ikut lebih bertanggung jawab sama agama gua, dan bisa tumbuh bareng-bareng 😌.",
+      date: new Date(),
+    },
+    {
+      id: 3,
+      text: "Ini baru awal son, lu liat kan gua kalo lagi stress nugas gmn??? awkoakwoakw",
+      date: new Date(),
+    },
+    {
+      id: 4,
+      text: "Saran gua cuma 1, kalo lu mau suka sama orang lain silakan, tpi yang recomended emang gua doang sih  🙏",
+      date: new Date(),
+    },
+    {
+      id: 5,
+      text: "Disela-sela kesibukan gua, gua mau ikut merayakan apa yang sedang lu rayakan dan sepertinya gua bakal ngirim sesuatu kerumah lu entah kapan. Doain gua biar bisa jadi orang yang pantas lu harapkan untuk ada dalam hiduplu",
+      date: new Date(),
+    },
+    {
+      id: 6,
+      text: "Dah abis kata-katanya. Lanjut WA aja..",
       date: new Date(),
     },
   ])

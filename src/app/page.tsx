@@ -75,7 +75,7 @@ export default function Home() {
       </div>
 
       <footer className="mt-16 bg-pink-300/50 py-6 text-center text-pink-700">
-        <p className="font-serif">Made with ❤️ for you</p>
+        <p className="font-serif">Made with ❤️ of Dave  (in 5 hours non stop) for you</p>
       </footer>
     </main>
   )
