@@ -7,6 +7,7 @@ import anomali from '@/assets/anomali1.jpg'
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
+import { redirect } from "next/navigation"
 // import { redirect } from "next/navigation"
 
 
@@ -19,7 +20,7 @@ export default function Home() {
       variant="default"
       size="lg"
         className={`fixed bottom-6 right-6 shadow-lg rounded-full `}
-        // onClick={redirect("https://snbp-result.vercel.app/")}
+        onClick={redirect("https://snbp-result.vercel.app/")}
     >
       <ArrowLeft className="mr-2" />
       Back
