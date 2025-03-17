@@ -64,7 +64,7 @@ export default function SpotifyPlayer() {
         ></iframe>
       ) : (
         <div className="flex h-[352px] flex-col items-center justify-center rounded-lg border border-dashed border-pink-300 bg-pink-50 p-4 text-center">
-       <iframe  src="https://open.spotify.com/embed/track/4K2TmH3Luk6dF8dVEmq6m0?utm_source=generator" width="100%" height="352" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+       <iframe  src="https://open.spotify.com/embed/track/6klFWv2xDGeTDoiKTtx4hg?utm_source=generator" width="100%" height="352" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
       )}
 

@@ -6,7 +6,7 @@ import { ThemeProvider } from "next-themes"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Kata-Kata Hari Ini",
+  title: "Word Of Affirmation",
   description: "A romantic website with music and love notes",
 }
 

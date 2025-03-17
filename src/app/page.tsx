@@ -5,12 +5,26 @@ import SpotifyPlayer from "@/components/spotify-player"
 import { useEffect, useState } from "react"
 import anomali from '@/assets/anomali1.jpg'
 import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { ArrowLeft } from "lucide-react"
+import { redirect } from "next/navigation"
+
 
 export default function Home() {
   const [memories, setMemories] = useState(["anomali"])
   useEffect(() => {setMemories(["anomali"])}, [])
   return (
     <main className="min-h-screen bg-gradient-to-b from-pink-100 to-pink-200">
+       <Button
+      variant="default"
+      size="lg"
+        className={`fixed bottom-6 right-6 shadow-lg rounded-full `}
+        onClick={redirect("https://snbp-result.vercel.app/")}
+    >
+      <ArrowLeft className="mr-2" />
+      Back
+    </Button>
+
       <FloatingHearts />
       <div className="container mx-auto px-4 py-12">
         <header className="mb-12 text-center">
