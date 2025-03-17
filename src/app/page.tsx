@@ -19,7 +19,7 @@ export default function Home() {
       variant="default"
       size="lg"
         className={`fixed bottom-6 right-6 shadow-lg rounded-full `}
-        onClick={redirect("https://snbp-result.vercel.app/")}
+        // onClick={redirect("https://snbp-result.vercel.app/")}
     >
       <ArrowLeft className="mr-2" />
       Back

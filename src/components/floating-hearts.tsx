@@ -36,7 +36,8 @@ export default function FloatingHearts() {
     // Animate hearts
     const animationFrame = requestAnimationFrame(animateHearts)
     return () => cancelAnimationFrame(animationFrame)
-  }, [hearts])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const createHeart = (id: number): Heart => ({
     id,
