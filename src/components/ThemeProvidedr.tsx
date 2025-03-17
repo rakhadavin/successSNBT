@@ -1,7 +1,7 @@
-import { ThemeProvider as NextThemesProvider } from 'next-themes';
+import { ThemeProvider as NextThemesProvider, ThemeProviderProps } from 'next-themes';
 import { useEffect, useState } from 'react';
 
-const ThemeProvider = ({ children }) => {
+const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
