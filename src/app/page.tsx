@@ -7,7 +7,6 @@ import anomali from '@/assets/anomali1.jpg'
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
-import { redirect } from "next/navigation"
 // import { redirect } from "next/navigation"
 
 
